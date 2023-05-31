@@ -35,6 +35,24 @@ body.blog .main-blog{
     margin-top: 30px;
     max-width: 48%;
 }
+.content-wrap .card__heading{
+    margin: 10px 0;
+}
+.content-wrap .card__heading a{
+    font-weight: bold;
+    font-size: 20px;
+}
+.content-wrap .article-excerpt{
+    font-size: 16px;
+    line-height: normal;
+}
+.content-wrap .author{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 15px;
+    color: #000;
+}
 .blog-articles.first-article .content-wrap h3 a{
     font-size: 42px;
     font-weight: 700;
@@ -62,11 +80,50 @@ body.blog .main-blog{
 }
 
 .blog-articles.other-article{
-    width: calc(33.33% - 20px);
+    width: calc(33.33% - 18px);
+    margin-right: 18px;
+    margin-bottom: 18px;
 }
 .other_grid_list{
     display: flex;
     flex-wrap: wrap;
-    max-width: 60%;
+    width: calc(80% - 18px);
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-right: -18px;
+}
+.main-list-wrap{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 150px;
+}
+.main-list-wrap aside{
+    width: calc(20% - 18px);
+}
+.blog .pagination-wrapper{
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.blog .pagination-wrapper .pagination__list{
+    justify-content: flex-start;
+}
+.blog .pagination-wrapper .pagination__list li{
+    width: 32px;
+    margin-right: 0;
+    flex: unset;
+}
+.blog .pagination-wrapper .pagination__list li:hover a{
+    background-color: #E5E7EB;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+.blog .pagination-wrapper .pagination__list li a:after{
+    display:none;
+}
+.blog .pagination-wrapper .pagination__list li a.pagination__item--current:after{
+    display:block;
 }
