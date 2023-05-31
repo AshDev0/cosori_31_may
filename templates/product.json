@@ -135,6 +135,12 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "f48f97c0-b890-4f80-ab4c-1f2accc8537f": {
+      "type": "pdp-tab-block",
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
@@ -143,13 +149,7 @@
     "28e741b0-c560-4c8d-afe2-dc59c9196d40",
     "0905f89a-9076-4fdc-8404-1041b9d592c1",
     "c2e779ac-bb3d-4cab-9f88-854fd5333522",
-    "a644cb80-abb3-47ef-9c80-88d038d6ba6b",
-    "13b582b4-4afd-432b-a35c-158919bc342c",
-    "a4560bfa-227a-42c2-b2df-18c0d4f27635",
-    "fa43f518-510d-4898-b1fe-cac6dc32dd63",
-    "f69b310a-6b89-4160-871f-311b5b1e657b",
-    "f13309a7-f315-4594-b65a-f3c02bc4fc79",
-    "290677bf-f8ca-4413-9396-e2306c6ddbe0",
-    "related-products"
+    "related-products",
+    "f48f97c0-b890-4f80-ab4c-1f2accc8537f"
   ]
 }
