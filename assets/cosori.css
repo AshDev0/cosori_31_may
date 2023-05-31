@@ -1457,10 +1457,223 @@ header .icon.icon-caret {
   text-align: center;
 }
 
+/* Footer CSS Starts*/
+
 footer.footer {
-  background: #000;
+  background: #252a2c;
   color: #fff;
   margin-top: unset;
+}
+
+.footer__content-bottom-wrapper .footer__payment{
+  display: none!important;
+}
+
+
+.footer-logo h3{
+  color: #fff;
+  width: 180px;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.footer__content-bottom-wrapper--center{
+  justify-content: flex-start!important;
+}
+
+.footer-block__details-content  {
+  list-style: none;
+  padding-left: 0!important;
+}
+
+.footer-block__details-content li a{
+  color: #fff!important;
+  font-size: 24px!important;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 500;
+  font-style: normal;
+  display: block!important;
+  margin: 0;
+  padding: 0;
+  margin-top: 32px;
+}
+
+.footer-block__heading{
+  color: #fff;
+  font-size: 24px!important;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px!important;
+}
+
+.footer__blocks-wrapper .footer-block:nth-child(2) ul li a {
+  font-size: 16px!important;
+  line-height: 24px!important;
+  margin: 0;
+  padding: 0;
+  margin-top: 32px!important;
+}
+
+.footer__blocks-wrapper .footer-block:nth-child(3) ul li a {
+  font-size: 16px!important;
+  line-height: 24px!important;
+  margin: 0;
+  padding: 0;
+  margin-top: 32px!important;
+}
+
+.footer__blocks-wrapper .footer-block ul li a:hover{
+  color: #fff;
+  text-decoration: none!important;
+}
+
+.footer-block__details-content p{
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px!important;
+}
+
+.copyright__content{
+  font-size: 16px!important;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.copyright__content a:hover{
+  color: #fff!important;
+}
+
+.footer__content-top.page-width{
+  width: 100%!important;
+  max-width: 100%!important;
+  padding: 0 16px!important;
+}
+
+.footer__content-bottom-wrapper.page-width{
+  width: 100%!important;
+  max-width: 100%!important;
+  padding: 0 16px!important;
+}
+
+.newsletter{
+  margin-top: 34px;
+}
+
+.newsletter__field{
+  margin-top: 0;
+  display: block;
+  width: 100%;
+  border-width: 0;
+  background-color: #fff;
+  padding: 12px 8px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #000;
+  box-shadow: none;
+}
+
+.btn-primary{
+  background-color: #fe5834;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  border-width: 2px;
+  border-color: transparent;
+  padding: 12px 32px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #fff;
+}
+
+.btn-primary:hover{
+  background-color: transparent;
+  color: #fe5834;
+  border-color: #fe5834;
+  border-width: 2px;
+}
+
+.footer_social {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.footer_social ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer_social ul li a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  color: #000;
+  transition: 0.3s ease-out;
+}
+
+.footer_social ul li a:hover{
+  background-color: #fe5834;
+  color:#fff;
+}
+
+.footer_social h2{
+  font-size: 24px;
+  letter-spacing: 0.4px;
+  line-height: 32px;
+  font-family: DIN;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  margin-top: 32px;
+  color: #fff;
+
+}
+
+.hashtag{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.hashtag p{
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 #collection-banner-section .container{
