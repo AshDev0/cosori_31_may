@@ -235,7 +235,7 @@ header .header__icons .custom-search-bar li:nth-child(2) {
   margin-left:7rem;
 }
 
-#HeaderMenu-MenuList-7{
+#HeaderMenu-MenuList-7, #HeaderMenu-MenuList-5{
     margin-top: 18px;
     width: 315px;
     display: flex;
@@ -250,7 +250,7 @@ header .header__icons .custom-search-bar li:nth-child(2) {
   padding: 0!important;
 }
 
-.header__menu-item.list-menu__item{
+#HeaderMenu-MenuList-7, #HeaderMenu-MenuList-5 .header__menu-item.list-menu__item{
   font-weight: 500!important;
 }
 
