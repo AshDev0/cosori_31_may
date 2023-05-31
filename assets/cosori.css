@@ -235,6 +235,25 @@ header .header__icons .custom-search-bar li:nth-child(2) {
   margin-left:7rem;
 }
 
+#HeaderMenu-MenuList-7{
+    margin-top: 18px;
+    width: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: none;
+    left: -100px;
+}
+
+.header__submenu.list-menu{
+  padding: 0!important;
+}
+
+.header__menu-item.list-menu__item{
+  font-weight: 500!important;
+}
+
 .lg\:inline-block {
     display: inline-block!important;
 }
