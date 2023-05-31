@@ -2080,6 +2080,9 @@ border-top: unset!important;
   width:70%;
   margin:0 auto;
 }
+#product-feature .product-feature .content .content-items:empty{
+  display: none!important;
+}
 
 #product-feature .product-feature .content .content-items{
   display:flex;
