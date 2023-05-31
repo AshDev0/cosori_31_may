@@ -102,6 +102,17 @@
         "heading": "BENEFITS"
       }
     },
+    "13b582b4-4afd-432b-a35c-158919bc342c": {
+      "type": "smart-features",
+      "settings": {
+        "heading": ""
+      }
+    },
+    "a4560bfa-227a-42c2-b2df-18c0d4f27635": {
+      "type": "smooth-pour",
+      "settings": {
+      }
+    },
     "290677bf-f8ca-4413-9396-e2306c6ddbe0": {
       "type": "why-cosori",
       "settings": {
@@ -117,6 +128,8 @@
     "c2e779ac-bb3d-4cab-9f88-854fd5333522",
     "related-products",
     "a644cb80-abb3-47ef-9c80-88d038d6ba6b",
+    "13b582b4-4afd-432b-a35c-158919bc342c",
+    "a4560bfa-227a-42c2-b2df-18c0d4f27635",
     "290677bf-f8ca-4413-9396-e2306c6ddbe0"
   ]
 }
