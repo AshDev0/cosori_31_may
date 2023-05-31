@@ -106,11 +106,21 @@ $(".accordion-header").click(function (e) {
   });
 });
 
-
-
-
-
 $(document).on("click", ".accordion-header", function (){
   $(this).children().children("svg").toggleClass("rotate");
 });
-  
+
+$(document).ready(function() {
+  $('.pdp-tabs .tabs .tab-links a').on('click', function(e)  {
+      var currentAttrValue = $(this).attr('href');
+
+      // Show/Hide Tabs
+      $('.pdp-tabs .tabs ' + currentAttrValue).fadeIn(400).siblings().hide();
+      // Change/remove current tab to active
+      $(this).parent('li').addClass('active').siblings().removeClass('active');
+
+      e.preventDefault();
+      
+      
+  });
+});

@@ -35,6 +35,24 @@ body.blog .main-blog{
     margin-top: 30px;
     max-width: 48%;
 }
+.content-wrap .card__heading{
+    margin: 10px 0;
+}
+.content-wrap .card__heading a{
+    font-weight: bold;
+    font-size: 20px;
+}
+.content-wrap .article-excerpt{
+    font-size: 16px;
+    line-height: normal;
+}
+.content-wrap .author{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 15px;
+    color: #000;
+}
 .blog-articles.first-article .content-wrap h3 a{
     font-size: 42px;
     font-weight: 700;
@@ -62,11 +80,143 @@ body.blog .main-blog{
 }
 
 .blog-articles.other-article{
-    width: calc(33.33% - 20px);
+    width: calc(33.33% - 18px);
+    margin-right: 18px;
+    margin-bottom: 18px;
 }
 .other_grid_list{
     display: flex;
     flex-wrap: wrap;
-    max-width: 60%;
-    justify-content: space-between;
+    width: calc(80% - 18px);
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-right: -18px;
 }
+.main-list-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.main-list-wrap aside{
+    width: calc(20% - 18px);
+}
+.blog .pagination-wrapper{
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.blog .pagination-wrapper .pagination__list{
+    justify-content: flex-start;
+}
+.blog .pagination-wrapper .pagination__list li{
+    width: 32px;
+    margin-right: 0;
+    flex: unset;
+}
+.blog .pagination-wrapper .pagination__list li:hover a{
+    background-color: #E5E7EB;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+.blog .pagination-wrapper .pagination__list li a:after{
+    display:none;
+}
+.blog .pagination-wrapper .pagination__list li a.pagination__item--current:after{
+    display:block;
+}
+
+
+.pdp-tabs {
+    font-family: Calibri, sans-serif;
+    max-width: 1024px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 100px;
+  }
+  .pdp-tabs h2{
+    text-align: center;
+    font-size: 60px;
+    color: #003339;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 40px;
+  }
+  .tabs {
+    width: 100%;
+    display: inline-block;
+  }
+  
+  /*----- Tab Links -----*/
+  .tab-links:after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  
+  .tab-links li {
+    margin: 0;
+    float: left;
+    list-style: none;
+    border-right: 1px solid #ededee;
+    
+  }
+  .tab-links{
+    border: 1px solid #ededee;
+  }
+  
+  .tab-links a {
+    padding: 9px 30px 5px 30px;
+    display: inline-block;
+    border-radius: 2px 2px 0px 0px;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    color: #003339;
+    transition: all linear 0.3s;
+    width: 200px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: unset;
+  }
+  
+  
+  li.active a,
+  li.active a:hover {
+    background: #003339;
+    color: #fff;
+  }
+  
+  /*----- Content of Tabs -----*/
+  .tab-content {
+    border-radius: 3px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.45);
+    background: #fff;
+    border: 1px solid #ededee;
+    border-top: unset;
+  }
+  
+  .tab {
+    display: none;
+    padding: 20px;
+  }
+  .tab h4{
+    width: 100%;
+    font-size: 18px;
+  }
+  .tab ul{
+    list-style-type: none;
+ }
+  
+  .tab.active {
+    display: block;
+  }
