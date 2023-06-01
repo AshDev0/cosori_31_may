@@ -5,39 +5,40 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "5c878704-192c-4338-876e-e0f378cd27a6": {
-          "type": "text",
-          "settings": {
-            "heading": "WELCOME TO OUR HOUSE",
-            "subtext": "<p>Our goal at Green Cradle is to offer our beautiful, craftsman, heirloom certified organic latex mattress, solid wood furniture and solid wood cribs that are all natural, non-toxic, eco-friendly, and Made in USA.  What a nice way to green the world.<\/p><p>VISIT OUR LOS ANGELES MATTRESS & FURNITURE SHOWROOM<\/p><p>13344 VENTURA BLVD, SHERMAN OAKS, CA 91423<\/p><p>CALL TOLL FREE (877) 476-2735<\/p><p>STORE HOURS: TUE-SAT 11:30AM-4:30PM (PST) and SUN & MON By Appointment Only. Email us at info@greencradle.com to schedule an appointment.<\/p>"
-          }
-        },
-        "2f3343c5-2523-4bfc-804e-ac7ae6f926f0": {
+        "b7847c25-cf44-4f19-b3e3-fdad9065040c": {
           "type": "link_list",
           "settings": {
-            "heading": "LEARN",
-            "menu": "footer"
+            "heading": "",
+            "menu": "footer_menu1"
           }
         },
-        "bfa5c674-dcc0-4eff-8c57-cf23b90f7849": {
-          "type": "brand_information",
+        "64149eee-5d6c-49b2-903c-c516f86225fb": {
+          "type": "link_list",
           "settings": {
-            "show_social": true
+            "heading": "",
+            "menu": "footer_menu2"
           }
         },
-        "e3d1ea8e-7c8c-455b-a64c-bb9f7c67fe74": {
+        "dc700db9-93b3-48ff-bd29-7560df77b10c": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer_menu3"
+          }
+        },
+        "31a360ec-c266-4826-9099-c57fc6b2afc2": {
           "type": "text",
           "settings": {
-            "heading": "YOU HAVE QUESTIONS CALL US (877) 476-2735",
-            "subtext": "<p>Subscribe to our newsletter and be the first to receive exclusive offers, hear about our new products and view upcoming promotions.<\/p><p>We at Green Cradle do our research to make your home safe and we tell you what we’ve learned regularly in our newsletter.  We promise not to share your personal information with anyone.<\/p>"
+            "heading": "Let's keep in touch",
+            "subtext": "<p>Subscribe to receive the latest news and updates<\/p>"
           }
         }
       },
       "block_order": [
-        "5c878704-192c-4338-876e-e0f378cd27a6",
-        "2f3343c5-2523-4bfc-804e-ac7ae6f926f0",
-        "bfa5c674-dcc0-4eff-8c57-cf23b90f7849",
-        "e3d1ea8e-7c8c-455b-a64c-bb9f7c67fe74"
+        "b7847c25-cf44-4f19-b3e3-fdad9065040c",
+        "64149eee-5d6c-49b2-903c-c516f86225fb",
+        "dc700db9-93b3-48ff-bd29-7560df77b10c",
+        "31a360ec-c266-4826-9099-c57fc6b2afc2"
       ],
       "settings": {
         "color_scheme": "background-1",
