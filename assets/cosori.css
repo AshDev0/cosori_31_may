@@ -5,6 +5,7 @@
   text-decoration: none;
 }
 
+
 @font-face {
   font-family: "DIN";
   src: url("//cdn.shopify.com/s/files/1/0742/6572/3189/t/2/assets/DIN2014-Light.woff2?v=138824286248541034931683043902")
@@ -2782,6 +2783,174 @@ border-top: unset!important;
 .rotate{
   transform: rotate(180deg);
 }
+
+#popup .popup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 999;
+}
+
+#popup .popup .popup-content{
+  width: 57.88%;
+  max-height: 450px;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fe5834;
+  border-radius: 8px;
+}
+
+#popup .popup .popup-content .popup-text{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
+
+#popup .popup .popup-content .popup-text h2{
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+#popup .popup .popup-content .popup-text p{
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+  margin-top: 16px;
+}
+
+#popup .popup .popup-content .popup-text h1{
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+  margin-top: 24px;
+}
+
+#popup .popup .popup-content .popup-text .form{
+  width: 100%;
+}
+
+#popup .popup .popup-content .popup-text .form a{
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 24px;
+}
+#popup .popup .popup-content .popup-text form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#popup .popup-text .form .email input {
+  width: 100%;
+  height: 50px;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: DIN;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  margin-top: 24px;
+  color: #000;
+  background-color: rgb(255, 255, 255);
+}
+
+#popup .popup-text .form .submit input {
+  width: 100%;
+  height: 40px;
+  box-shadow: none;
+  outline: none;
+  border:none;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 0;
+  font-family: DIN;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 24px;
+  color: #e5e7eb;
+  background-color: #003339;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+
+
+
+#popup .popup .popup-content .popup-img{
+  width: 50%;
+  position: relative;
+}
+
+#popup .popup .popup-content .popup-img img{
+  width: 100%;
+  display: block;
+  max-height: 450px;
+  border-radius: 0 8px 8px 0;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+#popup .popup .popup-content .popup-img .close-btn{
+position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    margin-top: 8px;
+    margin-right: 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: none;
+    outline: none;
+    border: none;
+  }
+
 
 
 

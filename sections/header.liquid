@@ -127,6 +127,9 @@
 <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
 <script src="https://cdn.jsdelivr.net/npm/keen-slider@latest/keen-slider.js"></script>
 <script src="{{ 'jquery-3.6.4.min.js' | asset_url }}" ></script>
+{% if template contains 'collection' %}
+<script src="{{ 'collection-load-more.js' | asset_url }}" defer="defer"></script>
+{%endif%} 
 {%- if settings.cart_type == "drawer" -%}
   <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
