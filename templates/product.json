@@ -95,6 +95,12 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "f48f97c0-b890-4f80-ab4c-1f2accc8537f": {
+      "type": "pdp-tab-block",
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
@@ -103,6 +109,7 @@
     "28e741b0-c560-4c8d-afe2-dc59c9196d40",
     "0905f89a-9076-4fdc-8404-1041b9d592c1",
     "c2e779ac-bb3d-4cab-9f88-854fd5333522",
-    "related-products"
+    "related-products",
+    "f48f97c0-b890-4f80-ab4c-1f2accc8537f"
   ]
 }
