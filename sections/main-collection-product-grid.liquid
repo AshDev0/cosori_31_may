@@ -203,15 +203,16 @@
         {%- else -%}
           <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
             <div class="loading-overlay gradient"></div>
-
+            
             <ul data-next-url="{{paginate.next.url}}"
-              id="product-grid"
+              
               data-id="{{ section.id }}"
               class="products-on-page
                 grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
+              <div id="Huratips-Loop" >
               {%- for product in collection.products -%}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
@@ -245,11 +246,20 @@
                   </li>
                   {% endif %}
               {%- endfor -%}
+            </div>
             </ul>
-            <div class="load-more-btn">
+          
+            {% comment %} load more btn content {% endcomment %}
+            {% comment %} <div class="load-more-btn">
               <a onclick="loadMoreProducts()">load more</a>
-              <div class="load-more_spinner"></div>
-              </div>
+              <div id="loadMore" class="load-more_spinner"></div>
+              </div> {% endcomment %}
+
+              <div id="Huratips-Pagination">
+                {% if paginate.next %}
+                <a href="{{ paginate.next.url }}"></a>
+                {% endif %}  
+            </div>
               
               
             {%- if paginate.pages > 1 -%}
