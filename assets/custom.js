@@ -137,3 +137,21 @@ $(window).on("load", function(){
 
     });
 });
+
+
+
+  // var video = $(".play-pause");
+  
+  //       // Check if video is ready to play
+  //       // $(video).on('canplay', function () {
+  //           $(video).mouseenter(function () {
+  //               $(this).get(0).play();
+  //           }).mouseleave(function () {
+  //               $(this).get(0).pause();
+  //           });
+        // });
+
+
+
+
+
