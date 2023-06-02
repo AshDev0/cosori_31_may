@@ -124,3 +124,16 @@ $(document).ready(function() {
       
   });
 });
+
+
+$(window).on("load", function(){
+  setTimeout(function(){
+    $("#popup .popup").show();
+    $("#popup .popup").css({"visibility": "visible", "opacity": "1"});
+    
+    }, 3000);
+    $(".close-btn").click(function(){
+      $("#popup .popup").hide();
+
+    });
+});
