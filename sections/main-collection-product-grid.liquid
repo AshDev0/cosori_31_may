@@ -247,8 +247,11 @@
               {%- endfor -%}
             </ul>
             <div class="load-more-btn">
-              <a href="#" onclick="loadMoreProducts()">load more</a>
+              <a onclick="loadMoreProducts()">load more</a>
+              <div class="load-more_spinner"></div>
               </div>
+              
+              
             {%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}

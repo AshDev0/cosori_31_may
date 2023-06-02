@@ -1921,6 +1921,7 @@ div.facets-vertical.page-width{
   display:flex;
   justify-content:center;
   align-items:center;
+  flex-direction: column;
   width:100%;
 }
 
@@ -1937,13 +1938,35 @@ div.facets-vertical.page-width{
   padding:12px 40px;
   text-transform:uppercase;
   border-radius:8px;
-
+  cursor: pointer;
 }
 
 .load-more-btn a:hover{
   border:2px solid #FE5834;
   color:#FE5834;
   background:transparent;
+}
+
+.load-more_spinner{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3a3a3a;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  display: none;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+}
+
+.pagination-wrapper{
+  display: none!important;
 }
 
 .facets-vertical-form{
